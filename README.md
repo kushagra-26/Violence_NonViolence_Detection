@@ -5,7 +5,7 @@ This project is a deep learning-based system to detect **violence** or **non-vio
 
 ---
 
-## **_📁 Project Structure_**
+## **_Project Structure_**
 
 - `violence_detection_model002.h5` — Trained model file  
 - `train_model.py` — Script to extract frames, train the CNN model, and save it  
@@ -24,7 +24,7 @@ pip install tensorflow tensorflow-gpu numpy matplotlib pillow opencv-python scik
 
 ---
 
-## **_🧠 Model Training (`train_model.py`)_**
+## **_Model Training (`train_model.py`)_**
 
 This script:
 
@@ -37,7 +37,7 @@ Ensure the dataset paths are configured correctly in the script.
 
 ---
 
-## **_📹 Inference with Video (`predict_video.py`)_**
+## **_Inference with Video (`predict_video.py`)_**
 
 This script:
 
@@ -57,17 +57,17 @@ Press `q` to exit the live stream window.
 
 ---
 
-## **_🗂 Dataset Used_**
+## **_Dataset Used_**
 
 **Real Life Violence Situations Dataset**  
-📦 Download here: [https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset](https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset)
+Download here: [https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset](https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset)
 
 - Contains two classes: `Violence` and `NonViolence`
 - Videos should be extracted into individual frames for training and validation
 
 ---
 
-## **_🧪 Model Architecture_**
+## **_Model Architecture_**
 
 - **Input Shape:** 224x224x3
 - **Architecture:**
@@ -79,14 +79,14 @@ Press `q` to exit the live stream window.
 
 ---
 
-## **_📈 Evaluation_**
+## **_Evaluation_**
 
 - Accuracy, precision, recall, F1 score using `sklearn`
 - You can modify the training script to save confusion matrix and reports
 
 ---
 
-## **_🚀 Running the Project_**
+## **_Running the Project_**
 
 1. Clone the repo:
 
@@ -105,7 +105,7 @@ Press `q` to exit the live stream window.
 
 ---
 
-## **_💡 Future Improvements_**
+## **_Future Improvements_**
 
 - Add alert system (buzzer/email notification) on detection
 - Host the model on a web interface (Flask or Streamlit)
@@ -113,10 +113,10 @@ Press `q` to exit the live stream window.
 
 ---
 
-## **_📬 Contact_**
+## **_Contact_**
 
 For any inquiries or collaboration:
 
 **Name**  
-📧 [kushagrasaxena264@gmail.com]  
+ [kushagrasaxena264@gmail.com]  
 🔗 [https://github.com/kushagra-26]
