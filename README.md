@@ -7,7 +7,6 @@ This project is a deep learning-based system to detect **violence** or **non-vio
 
 ## **_Project Structure_**
 
-- `violence_detection_model002.h5` — Trained model file  
 - `train_model.py` — Script to extract frames, train the CNN model, and save it  
 - `predict_video.py` — Real-time/video file detection using the trained model  
 - `README.md` — Project documentation  
